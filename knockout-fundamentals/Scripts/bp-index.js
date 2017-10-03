@@ -23,6 +23,12 @@ $(function () {
               this.tagToAdd("");
             }
           };
+
+          $(document).on("click", ".tag-delete", function () {
+            var item = ko.dataFor(this);  // extracts the data bound to this particular DOM element
+            viewModel.tags.remove(item);
+          });
+
           ko.applyBindings(viewModel);
 
   //    function tagItem(name, id) {

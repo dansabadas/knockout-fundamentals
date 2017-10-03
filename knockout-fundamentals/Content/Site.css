@@ -46,3 +46,32 @@ a.tag-delete {
 a.tag-delete:hover {
   color: #333333;
 }
+.box {
+  background: #fbfcfc;
+  height: 100%;
+  padding: 1px;
+  margin-bottom: 20px;
+  margin-right: 4px;
+}
+.box-head {
+  background: #ba4c32;
+  height: 32px;
+  color: #fff;
+  padding: 0 10px;
+  line-height: 32px;
+  white-space: nowrap;
+  border-bottom: solid 1px #fff;
+}
+.box-head .right {
+  padding-top: 5px;
+  line-height: 13px;
+}
+.box-head .right label, .box-head .right input {
+  float: left;
+}
+.box-head .right label {
+  padding: 4px 0 0 0;
+}
+.box-head .right input {
+  margin-left: 5px;
+}
